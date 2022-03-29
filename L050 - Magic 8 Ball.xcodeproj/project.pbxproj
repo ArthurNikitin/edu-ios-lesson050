@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		AD7D68C522B8EB54009C798B /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; fileEncoding = 4; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
-		ADE1FB4022B3A4B100DD2BD6 /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE1FB4022B3A4B100DD2BD6 /* L050 - Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L050 - Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ADE1FB4722B3A4B100DD2BD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				AD7D68C522B8EB54009C798B /* README.md */,
-				ADE1FB4222B3A4B100DD2BD6 /* Magic 8 Ball */,
+				ADE1FB4222B3A4B100DD2BD6 /* L050 - Magic 8 Ball */,
 				ADE1FB4122B3A4B100DD2BD6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,12 +51,12 @@
 		ADE1FB4122B3A4B100DD2BD6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADE1FB4022B3A4B100DD2BD6 /* Magic 8 Ball.app */,
+				ADE1FB4022B3A4B100DD2BD6 /* L050 - Magic 8 Ball.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADE1FB4222B3A4B100DD2BD6 /* Magic 8 Ball */ = {
+		ADE1FB4222B3A4B100DD2BD6 /* L050 - Magic 8 Ball */ = {
 			isa = PBXGroup;
 			children = (
 				ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */,
 				ADE1FB5122B3A4B300DD2BD6 /* Info.plist */,
 			);
-			path = "Magic 8 Ball";
+			path = "L050 - Magic 8 Ball";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADE1FB3F22B3A4B100DD2BD6 /* Magic 8 Ball */ = {
+		ADE1FB3F22B3A4B100DD2BD6 /* L050 - Magic 8 Ball */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADE1FB5422B3A4B300DD2BD6 /* Build configuration list for PBXNativeTarget "Magic 8 Ball" */;
+			buildConfigurationList = ADE1FB5422B3A4B300DD2BD6 /* Build configuration list for PBXNativeTarget "L050 - Magic 8 Ball" */;
 			buildPhases = (
 				ADE1FB3C22B3A4B100DD2BD6 /* Sources */,
 				ADE1FB3D22B3A4B100DD2BD6 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Magic 8 Ball";
+			name = "L050 - Magic 8 Ball";
 			productName = "Magic 8 Ball";
-			productReference = ADE1FB4022B3A4B100DD2BD6 /* Magic 8 Ball.app */;
+			productReference = ADE1FB4022B3A4B100DD2BD6 /* L050 - Magic 8 Ball.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADE1FB3B22B3A4B100DD2BD6 /* Build configuration list for PBXProject "Magic 8 Ball" */;
+			buildConfigurationList = ADE1FB3B22B3A4B100DD2BD6 /* Build configuration list for PBXProject "L050 - Magic 8 Ball" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADE1FB3F22B3A4B100DD2BD6 /* Magic 8 Ball */,
+				ADE1FB3F22B3A4B100DD2BD6 /* L050 - Magic 8 Ball */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V567Q89DQV;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Magic-8-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arthurnikitin.magic-ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -306,12 +307,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V567Q89DQV;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Magic-8-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arthurnikitin.magic-ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -321,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADE1FB3B22B3A4B100DD2BD6 /* Build configuration list for PBXProject "Magic 8 Ball" */ = {
+		ADE1FB3B22B3A4B100DD2BD6 /* Build configuration list for PBXProject "L050 - Magic 8 Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADE1FB5222B3A4B300DD2BD6 /* Debug */,
@@ -330,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADE1FB5422B3A4B300DD2BD6 /* Build configuration list for PBXNativeTarget "Magic 8 Ball" */ = {
+		ADE1FB5422B3A4B300DD2BD6 /* Build configuration list for PBXNativeTarget "L050 - Magic 8 Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADE1FB5522B3A4B300DD2BD6 /* Debug */,
